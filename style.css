@@ -201,6 +201,7 @@ footer {
 @media screen and (max-width: 715px) {
   header {
     background: rgb(255, 255, 255);
+    background: rgb(94, 94, 94);
     /* background-image: url(images/bg.png); */
     background-position: center;
     background-size: 100%;
@@ -218,6 +219,12 @@ footer {
     background-size: 380%;
     height: 630px;
     padding: 50px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: -15%;
+    margin-left: -15%;
   }
 
   nav ul {
@@ -238,7 +245,7 @@ footer {
     display: inline-block;
     position: relative;
     height: 140px;
-    top: -50px;
+    top: -10px;
     text-indent: -999999px;
     width: 220px;
   }
@@ -255,10 +262,11 @@ footer {
     font-size: 20px;
     background-color: rgba(35, 166, 226, 0.685);
     box-shadow: gray 0 0 10px;
-    padding: 5px;
+    padding: 2%;
     display: grid;
     border-radius: 20px;
-    transform: translateY(100%);
+    width: 25%;
+    transform: translateX(110%);
     color: rgb(255, 255, 255);
   }
 
