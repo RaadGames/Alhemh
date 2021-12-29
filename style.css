@@ -241,13 +241,15 @@ footer {
     background-image: url(images/logo.png);
     background-size: 220px;
     background-position: 0px;
+    background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
-    height: 140px;
-    top: -10px;
-    text-indent: -999999px;
+    height: 120px;
     width: 220px;
+    top: -10px;
+    left: 10px;
+    text-indent: -999999px;
   }
 
   header .homeButton {
@@ -262,11 +264,12 @@ footer {
     font-size: 20px;
     background-color: rgba(35, 166, 226, 0.685);
     box-shadow: gray 0 0 10px;
-    padding: 2%;
-    display: grid;
+    display: inline-block;
+    /* padding: 2%; */
+    /* display: grid; */
     border-radius: 20px;
-    width: 25%;
-    transform: translateX(110%);
+    width: 150px;
+    /* transform: translateX(110%); */
     color: rgb(255, 255, 255);
   }
 
