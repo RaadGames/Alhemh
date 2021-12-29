@@ -109,6 +109,95 @@ footer {
   padding: 10px 50px;
 }
 
+@media screen and (max-width: 1130px) {
+  header {
+    background: rgb(255, 255, 255);
+    /* background-image: url(images/bg.png); */
+    background-position: center;
+    background-size: 100%;
+    height: 1200px;
+    padding: 50px;
+    text-align: center;
+  }
+
+  header .bg {
+    background: rgb(167, 167, 167);
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    box-shadow: black 0 0 10px;
+    border-radius: 20px;
+    background-size: 180%;
+    height: 930px;
+    padding: 50px;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  header .logo a {
+    background-image: url(images/logo.png);
+    background-size: 320px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 140px;
+    top: -20px;
+    text-indent: -999999px;
+    width: 320px;
+  }
+
+  header .homeButton {
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 7%;
+    padding: 7px;
+  }
+
+  header .button {
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(35, 166, 226, 0.685);
+    box-shadow: gray 0 0 10px;
+    padding: 5px;
+    display: grid;
+    border-radius: 20px;
+    transform: translateY(100%);
+    color: rgb(255, 255, 255);
+  }
+
+  header .info {
+    font-size: 30px;
+  }
+
+  /* video */
+  .videoPc iframe {
+    /* display: none; */
+    left: 50%;
+    transform: translateX(18%);
+    position: 10px;
+    border: 1px solid white;
+    box-shadow: gray 0 0 10px;
+    border-radius: 10px;
+  }
+
+  .videoMobile715 iframe {
+    position: 10px;
+    transform: translateX(5%);
+    display: inline-block;
+    border: 1px solid white;
+    box-shadow: gray 0 0 10px;
+    border-radius: 10px;
+  }
+}
+
 @media screen and (max-width: 715px) {
   header {
     background: rgb(255, 255, 255);
@@ -126,8 +215,8 @@ footer {
     background-repeat: no-repeat;
     box-shadow: black 0 0 10px;
     border-radius: 20px;
-    background-size: 180%;
-    height: 430px;
+    background-size: 380%;
+    height: 630px;
     padding: 50px;
   }
 
@@ -144,12 +233,12 @@ footer {
   header .logo a {
     background-image: url(images/logo.png);
     background-size: 220px;
+    background-position: 0px;
     background-repeat: no-repeat;
-    transform: translateX(4%);
     display: inline-block;
     position: relative;
     height: 140px;
-    top: -60px;
+    top: -50px;
     text-indent: -999999px;
     width: 220px;
   }
